@@ -1,0 +1,8 @@
+
+<h2 styles="text-align: center;">Celebrity List!</h2>
+
+<ul>
+  <% celebrityData.forEach((celebrity) => { %>
+    <h3><%= celebrity.name %><a href="/celebrities/<%= celebrity._id %>"> See more info</a></h3>
+  <% }); %>
+</ul>
